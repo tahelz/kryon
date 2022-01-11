@@ -1,8 +1,8 @@
-**KRYON**
+# KRYON
 
 NodeJS project sturcture with Typescript, Express, jsonwebtoken and bcryptjs.
 
-**Installation**
+## Installation
 
 Steps:
 
