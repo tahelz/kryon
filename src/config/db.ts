@@ -18,7 +18,7 @@ export class DB {
     this.todoLists = todoLists;
   }
 
-  async findUser(name: string): Promise<User> {
+  findUser(name: string): User {
     let user = this.users.find((user) => {
       return user.name === name;
     });
@@ -26,17 +26,17 @@ export class DB {
     return user;
   }
 
-  async createUser(name: string, encryptedPassword: string): Promise<User> {
+  createUser(name: string, encryptedPassword: string): User {
     let user = new User(uuidv4(), name, encryptedPassword);
     this.users.push(user);
     return user;
   }
 
-  async getFilteredLists(filters: any): Promise<TodoList[]> {
+  getFilteredLists(filters: any): TodoList[] {
     return this.filter(todoLists, filters);
   }
 
-  async getSortedList(sortBy: string, order: string): Promise<TodoList[]> {
+  getSortedList(sortBy: string, order: string): TodoList[] {
     return this.sort(this.todoLists, sortBy, order);
   }
 
