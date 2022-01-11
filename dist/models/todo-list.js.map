@@ -1,0 +1,1 @@
+{"version":3,"file":"todo-list.js","sourceRoot":"","sources":["../../src/models/todo-list.ts"],"names":[],"mappings":";;;AACA,MAAa,QAAQ;IAKnB,YAAY,EAAU,EAAE,IAAY,EAAE,QAAkB;QACtD,IAAI,CAAC,EAAE,GAAG,EAAE,CAAC;QACb,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;QACjB,IAAI,CAAC,QAAQ,GAAG,QAAQ,CAAC;IAC3B,CAAC;CACF;AAVD,4BAUC"}
